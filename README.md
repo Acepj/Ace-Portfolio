@@ -129,7 +129,6 @@ For collaborations, feel free to connect with me:
 
 - 📧 Email: acelopez@email.com *(update accordingly)*
 - 🌍 Portfolio: [https://your-portfolio-link.com](https://your-portfolio-link.com)
-- 🔗 LinkedIn / GitHub / Other (add if applicable)
 
 ---
 
