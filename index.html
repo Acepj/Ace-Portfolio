@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <div class="container nav-container">
+      <div class="logo">Portfolio</div>
+      <ul id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" aria-label="Open menu" role="button" tabindex="0">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" data-aos="fade-in">
+    <div class="home-content">
+      <div class="home-text">
+        <h1>Ace</h1>
+      </div>
+      <div class="home-textt">
+        <h1>Lopez</h1>
+  
+        
+        <div class="wrapper">
+          <div class="static-txt">I'm a</div>
+          <ul class="dynamic-txts">
+            <li><span data-text="Editor">Editor</span></li>
+            <li><span data-text="Designer">Designer</span></li>
+            <li><span data-text="Developer">Developer</span></li>
+            <li><span data-text="Freelancer">Freelancer</span></li>
+          </ul>
+        </div>
+        
+  
+      </div>
+      <div class="profile-blob shape">
+        <div class="bg-cover"></div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+      <p>
+        Welcome to my personal portfolio website. I'm a passionate web developer and designer creating beautiful and functional websites. And also a frontend developer with experience in HTML, CSS, JavaScript, Java and currently learning tailwindcss, React Js and figma.
+        I love crafting engaging web experiences and learning new technologies daily.
+        Apart from coding, I enjoy photography, hiking, biking, and playing video games.
+      </p>
+    </div>
+  </section>
+
+
+  <section id="skills" data-aos="zoom-in">
+    <h2>Skills</h2>
+    <ul>
+      <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" /></li> 
+      <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" /></li>
+      <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" /></li>
+      <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" /></li>          
+      <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg" /></li>   
+      <li><img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma icon" class="skill-icon" style="width: 36px; height: 36px;" />Figma</li>
+      
+          
+    </ul>
+  </section>
+
+  <section id="projects" data-aos="flip-left">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <img src="/images/blog.jpg" alt="Project One screenshot" class="project-thumb" />
+        <h3>Project One</h3>
+        <p>Unfinished Blog Website</p>
+        <a href="https://blog-website-byacelopez.netlify.app/" target="_blank" rel="noopener noreferrer">View Project</a>
+      </div>
+      <div class="project">
+        <img src="/images/todo list.jpg" alt="Project Two screenshot" class="project-thumb" />
+        <h3>Project Two</h3>
+        <p>A dynamic to-do list app </p>
+        <a href="https://todolistbyacelopez.netlify.app/" target="_blank" rel="noopener noreferrer">View Web App</a>
+      </div>
+      <div class="project">
+        <img src="/images/wet.jpg" alt="Project Three screenshot" class="project-thumb" />
+        <h3>Project Three</h3>
+        <p>Landing page for weather cast</p>
+        <a href="https://weatherforecastbyacelopez.netlify.app/" target="_blank" rel="noopener noreferrer">Visit Website</a>
+      </div>
+      <div class="project">
+        <img src="/images/ecommerce.jpg" alt="Project Three screenshot" class="project-thumb" />
+        <h3>Project Four</h3>
+        <p>E-commerce Website</p>
+        <a href="https://ecommerce-dsource-bookstore.netlify.app/" target="_blank" rel="noopener noreferrer">Visit Website</a>
+      </div>
+      <div class="project">
+        <img src="/images/aceprof.jpg" alt="Project Three screenshot" class="project-thumb" />
+        <h3>My Github</h3>
+        <a href="https://github.com/Acepj" target="_blank" rel="noopener noreferrer">Visit My Other Project on Github</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <input type="hidden" name="subject" value="Contact Form Submission" />
+      <label for="name">Name *</label>
+      <input type="text" id="name" name="user_name" required autocomplete="name" />
+      <label for="email">Email *</label>
+      <input type="email" id="email" name="user_email" required autocomplete="email" />
+      <label for="message">Message *</label>
+      <textarea id="message" name="user_message" rows="6" required></textarea>
+      <button type="submit" onclick="sendMail()">Send Message</button>
+      <div class="form-message" id="form-message"></div>
+    </form>
+  </section>
+
+  <!-- Include EmailJS library -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- Your JavaScript file -->
+  <script src="EmailJs.js"></script>
+
+  <footer>
+    <p>&copy; 2025 Ace Lopez. All rights reserved.</p>
+  </footer>
+   
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+  duration: 1000,
+  once: false,
+  mirror: true, 
+});
+
+</script>
+  <script src="/js/EmailJs.js"></script>
+  <script src="/js/script.js"></script>
+</body>
+</html>

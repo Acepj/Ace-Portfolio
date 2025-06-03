@@ -1,0 +1,36 @@
+# Node modules (if using npm packages later)
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: environment files (if you use EmailJS or deploy secrets)
+.env
+.env.local
+.env.production
+
+# Cache files
+.cache/
+dist/
+build/
+
+# VS Code settings
+.vscode/
+
+# Netlify or Vercel build outputs (if used)
+.netlify/
+.vercel/
+
+# OS-specific
+*.swp
+*.swo
+
+# Optional: images and assets not to track (if large or temporary)
+images/temp/
+assets/temp/

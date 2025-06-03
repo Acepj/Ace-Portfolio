@@ -1,0 +1,49 @@
+
+---
+
+## ✨ Features
+
+- **Responsive Design** – Works well on mobile, tablet, and desktop.
+- **Navigation Menu** – Includes smooth scrolling and hamburger menu.
+- **Animated Sections** – Powered by [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/).
+- **Dynamic Typing Effect** – Rotating titles like *Developer*, *Editor*, etc.
+- **Project Showcase** – With links to live demos and GitHub repos.
+- **Contact Form** – Powered by EmailJS for direct email submissions.
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+- **EmailJS**
+- **AOS Library**
+- **Google Fonts (Sacramento)**
+
+---
+
+## 📷 Screenshots
+
+> Add screenshots or animated GIFs of your homepage, projects section, and contact form here (optional).
+
+---
+
+## 📌 Sections Breakdown
+
+- **Home:** Welcome hero with animated titles.
+- **About Me:** Short bio and interests.
+- **Skills:** Icons for HTML, CSS, JS, Tailwind, Sass, Figma, etc.
+- **Projects:** Four featured projects with images and links.
+- **Contact:** EmailJS-powered contact form.
+- **Footer:** Simple copyright.
+
+---
+
+## 🔧 Setup Instructions
+
+To run the project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Acepj/portfolio.git
